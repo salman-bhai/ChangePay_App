@@ -21,12 +21,11 @@ android:layout_height="match_parent"
     android:focusable = "true"
     android:textColorHighlight = "#ff7eff15"
     android:textColorHint = "#ffff25e6"
-    android:layout_marginTop = "46dp"
-    android:layout_below = "@+id/Pinsetup"
-    android:layout_alignParentLeft = "true"
-    android:layout_alignParentStart = "true"
-    android:layout_alignParentRight = "true"
-    android:layout_alignParentEnd = "true" />
+    android:layout_centerVertical="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignRight="@+id/editText"
+    android:layout_alignEnd="@+id/editText" />
 
 
 <Button
@@ -34,8 +33,12 @@ android:layout_height="match_parent"
     android:layout_height="wrap_content"
     android:text="login"
     android:id="@+id/button1"
+    android:layout_marginLeft="15dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="43dp"
     android:layout_below="@+id/editText"
-     />
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
 
 <EditText
     android:layout_width="wrap_content"
@@ -43,14 +46,44 @@ android:layout_height="match_parent"
     android:inputType="textPersonName"
     android:ems="10"
     android:id="@+id/editText"
+
+    android:textColorHint="#ffff299f"
     android:layout_below="@+id/editText2"
     android:layout_alignParentLeft="true"
     android:layout_alignParentStart="true"
-    
-    android:textColorHint="#ffff299f"
-    />
+    android:layout_marginTop="79dp" />
 
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text=""
+        android:layout_below="@+id/Pinsetup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter mobile number"
+        android:layout_below="@+id/Pinsetup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText5"
+        android:layout_marginTop="43dp"
+        android:text="enter pin" />
 
 
 </RelativeLayout>
