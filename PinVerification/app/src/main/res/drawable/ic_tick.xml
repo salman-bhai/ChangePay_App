@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="70dp"
+    android:viewportHeight="24"
+    android:width="70dp"
+    android:viewportWidth="24">
+    <group android:name="tickCross"
+        android:pivotX="12"
+        android:pivotY="12">
+        <path
+            android:name="tick"
+            android:pathData="M4.8,13.4 L9,17.6 M10.4,16.2 L19.6,7"
+            android:strokeWidth="2"
+            android:strokeColor="#20f210"
+            android:strokeLineCap="square"/>
+    </group>
+</vector>
