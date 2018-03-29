@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Firebasesample</string>
+    <string name="tick">M4.8,13.4 L9,17.6 M10.4,16.2 L19.6,7</string>
+    <string name="cross">M6.4,6.4 L17.6,17.6 M6.4,17.6 L17.6,6.4</string>
+</resources>
